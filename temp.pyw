@@ -19,4 +19,4 @@ temp = r["main"]["temp"]
 temp_min = r["main"]["temp_min"]
 temp_max = r["main"]["temp_max"]
 
-TN.show_toast("Meteo", f"temp: {temp}\ntemp_min: {temp_min}\ntemp_max: {temp_max}", threaded=True, icon_path="./assets/meteo_icon.ico", duration=30)
+TN.show_toast("Meteo", f"temp: {temp} °C\ntemp_min: {temp_min} °C\ntemp_max: {temp_max} °C", threaded=True, icon_path="./assets/meteo_icon.ico", duration=30)
